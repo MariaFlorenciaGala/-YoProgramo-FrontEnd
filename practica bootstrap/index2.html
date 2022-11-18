@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 2 Bootstrap</title>
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./interfaz.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark"><!--de light lo cambie a dark , si quiero ver los tipos de "estilos" que hay puedo ir a bootstrap , en la parte botones están los examples-->
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Ésta</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto"><!--ms significa margin start (margen a la izquierda) y el otro es margin end(a la derecha)-->
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">Va para allá</a>
+                  <a class="nav-link" href="#">Viene para acá</a>
+                  <a class="nav-link disabled">dá media vuelta</a>
+                </div>
+              </div>
+            </div>
+        </nav>
+        </div>
+            </div>
+
+        </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4" >
+                    <div class="card" style="width: 18rem;">
+                    <img src="./img1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                            <h5 class="card-title">Mmm</h5>
+                            <p class="card-text">Este es un ejemplo de un texto que realmente no dice nada, todo lo que en este momento estoy escribiendo no van a sumar nada a quien lo lea, simplemente estoy practicando Bootstrap</p>
+                            <a href="http:www.google.com" class="btn btn-primary">Ir a Google</a>
+                    </div>
+                </div>
+            </div>
+                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-6" style="background-color:rgb(153, 211, 211);">
+                    <h1>Lista de lenguajes</h1>
+                    <table class="table table-striped" ><!---striped es para que muestre una linea clara y otra oscura-->
+                        <thead>
+                            <tr>
+                                <th class="centrado">#</th>
+                                <th class="centrado">Lenguaje</th>
+                                <th class="centrado">Cantidad de programadores</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="centrado">1</td>
+                                <td class="centrado">JavaScript/td>
+                                <td class="centrado">21</td>
+                            </tr>
+                            <tr>
+                                <td class="centrado">2</td>
+                                <td class="centrado">Python</td>
+                                <td class="centrado">110</td>
+                            </tr>
+                            <tr>
+                                <td class="centrado">3</td>
+                                <td class="centrado">C#</td>
+                                <td class="centrado">45</td>
+                            </tr>
+                            <tr>
+                                <td class="centrado">4</td>
+                                <td class="centrado">Ruby</td>
+                                <td class="centrado">31</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="'container my-3">
+                        <div class="row">
+                            <div class="col-sm-12  ">
+                                <h2>Formulario de lenguaje</h2>
+                                <form >
+                                    <div class="mb-3">
+                                        <label for="nombre" class="form-label">Lenguaje</label>
+                                        <input type="text" class="form-control" id="nombre" placeholder="Lenguaje" autofocus><!--El autofocus es para que aparezca el cursor-->
+                                      </div>
+                                      <div class="mb-3">
+                                        <label for="descripcion" class="form-label">Descripción</label>
+                                        <textarea class="form-control" id="descripcion" rows="3"></textarea>
+                                        <label for="cantidadProgramadores" class="form-label">Cantidad de programadores</label>
+                                        <input type="number" class="form-control" id="cantidadProgramadores" placeholder="Cantidad">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-success">Agregar</button>
+                                            <button class="btn btn-light">Limpiar</button>
+                                        </div>
+                                        
+                                      </div>
+                                </form>
+                </div>
+            </div>
+    </div>
+    <!--BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>
