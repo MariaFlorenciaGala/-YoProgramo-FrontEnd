@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="Calculadora.css">
+</head>
+
+    <form name="Calculadora">
+    <div class="container">
+        <body>
+        <div>
+            <h1 class="title">Calculadora</h1>
+            <input type="text" class="calculator-display" name="txtboxnros" value="0" disabled>
+        <div class="keypad-numbers">
+            <input class="keypad-button operation" type="button" value="C" onclick="limpiar()">
+            <input class="keypad-button operation" type="button" value="%" onclick="ingresaOperacion('%')">
+            <input class="keypad-button operation" type="button" value="^" onclick="ingresaOperacion('**')">
+            <input class="keypad-button operation" type="button" value="√" onclick="raiz()">
+            
+            <input class="keypad-button" type="button" value="7" onclick="ingresarNumero(this.value)">
+            <input class="keypad-button" type="button" value="8" onclick="ingresarNumero(this.value)">
+            <input class="keypad-button" type="button" value="9" onclick="ingresarNumero(this.value)">
+            <input class="keypad-button operation" type="button" value="/" onclick="ingresaOperacion(this.value)">
+
+            <input class="keypad-button" type="button" value="4" onclick="ingresarNumero(this.value)">
+            <input class="keypad-button" type="button" value="5" onclick="ingresarNumero(this.value)">
+            <input class="keypad-button" type="button" value="6" onclick="ingresarNumero(this.value)">
+            <input class="keypad-button operation" type="button" value="*" onclick="ingresaOperacion(this.value)">
+
+            <input class="keypad-button" type="button" value="1" onclick="ingresarNumero(this.value)">
+            <input class="keypad-button" type="button" value="2" onclick="ingresarNumero(this.value)">
+            <input class="keypad-button" type="button" value="3" onclick="ingresarNumero(this.value)">
+            <input class="keypad-button operation" type="button" value="-" onclick="ingresaOperacion(this.value)">
+            <input class="keypad-button" type="button" value="." onclick="ingresarNumero(this.value)">
+
+            <input class="keypad-button" type="button" value="0" onclick="ingresarNumero(this.value)">
+            <input class="keypad-button operation" type="button" value="=" onclick="resultado()">
+            <input class="keypad-button operation" type="button" value="+" onclick="ingresaOperacion(this.value)">
+            
+        </div>
+    </form>
+    <script src="Calculadora.js"></script>
+    
+</body>
+</html>

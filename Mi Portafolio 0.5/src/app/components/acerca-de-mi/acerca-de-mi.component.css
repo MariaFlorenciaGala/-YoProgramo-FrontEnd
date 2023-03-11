@@ -1,0 +1,13 @@
+img{
+   vertical-align:auto;
+   text-align:left;
+   width: 500px;
+}
+div{
+   display:inline;
+   justify-content: center;
+   text-align: center;
+}
+h2{
+   font-size: 3rem;
+}

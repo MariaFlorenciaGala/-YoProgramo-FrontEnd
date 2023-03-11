@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url('../src/assets/fonts/BebasNeue-Regular.ttf');
+}
+@font-face {
+    font-family: 'Arimo';
+    src: url('../src/assets/fonts/Arimo-Regular.ttf');
+
+}
+
+h2{    
+    font-family: 'Bebas','Segoe';
+    font-size: 200%;
+    color:#434242;
+    text-shadow: 10%;
+    text-shadow: #059294b6 5px 5px 10px;
+}
+p{
+    font-family: 'Arimo';
+}

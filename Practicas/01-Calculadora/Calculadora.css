@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 62.5%;
+
+}
+.title{
+    background-color: #00916e;
+    font-size: 4rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 2px #ff5353;
+    box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #00ffc11f;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 15px;
+}
+.calculator {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 1px solid gray;
+    font-size: 2rem;
+}
+
+input[type=button] {
+    cursor: pointer;
+    margin: 2px;
+    padding: 0;
+    border-radius: 32px;
+    font-size: 4em;
+    border: none;
+    background-color: #00916e;
+    color: aliceblue;
+    box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #00ffc11f;
+}
+
+input[type=button]:active {
+    background-color: #006f54;
+}
+input[type=button]:focus {
+    outline: none;
+}
+
+input[type="text"] {
+    padding: 20px 15px;
+    width: 100%;
+    text-align: right;
+    border:1px solid gray;
+    overflow-x: auto;
+    font-size: 3rem;
+}
+
+
+
+.calculator-display {
+    padding: 20px 15px;
+    width: 30%;
+    text-align: right;
+    border: 1px solid gray;
+    overflow-x: auto;
+    font-size: 3rem;
+    border-radius: 32px;
+    box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #00ffc11f;
+
+}
+
+.calculator-keypad {
+    display: flex;
+    width: 100%;
+}
+
+.keypad-numbers {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.keypad-button{
+    width: 23.9%;
+    padding: 25px 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgb(93, 213, 139);
+
+}
+.keypad-button:hover{
+    filter: brightness(80%);
+    transition: filter .25s;
+}
+
+.keypad-button.operation{
+    background-color: rgb(195, 211, 212);
+    color: black;
+
+    
+}

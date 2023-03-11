@@ -1,0 +1,20 @@
+.redes{
+    text-align: right;
+    right:10px;
+}
+.logIn{
+    text-align: right;
+    right:10px;
+}
+.bi-door-open-fill{
+    color: rgb(255, 255, 255);
+    font-size: 2.4rem;
+    padding-left: 60px;
+    padding-right: 20px;
+}
+
+i{
+    padding:0.3rem;
+    font-size: 1.5rem;
+    color:aliceblue;
+}

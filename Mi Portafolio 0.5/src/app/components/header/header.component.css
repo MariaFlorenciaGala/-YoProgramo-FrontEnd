@@ -1,0 +1,21 @@
+#container-fluid{
+    padding-right: 0% ;
+    border: 0%;
+
+}
+div{
+    padding-right: 0% ;
+    border: 0%;
+
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,208,185,1) 0%, rgba(255,0,159,1) 100%);
+
+}
+.navbar{
+    padding-right: 0% ;
+    border: 0%;
+
+
+}
