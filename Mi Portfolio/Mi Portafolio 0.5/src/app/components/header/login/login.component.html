@@ -1,0 +1,61 @@
+<!-- Modal de LoIN -->
+
+<div class="modal fade" id="logInModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Ingresar</h1>
+            <button type="button" class="btn-close position-absolute top-0 end-0" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                <label for="email" class="form-label">Correo</label>
+                <input type="email" formControlName="mail" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" >
+                <span >Jamás compartiremos tu información con nadie.</span>
+                </div>
+                <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <input type="password" formControlName="password" class="form-control" id="Password">
+                <span>Si olvidaste la contraseña, hazte otra cuenta por que no sé como se hace para recuperarla</span>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-info" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">No tengo cuenta</button>
+            <button type="submit" class="btn btn-success">Ingresar</button>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal de Registro -->
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Registrate</h1>
+        <button type="button" class="btn-close position-absolute top-0 end-0" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Correo</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Jamás compartiremos tu información con nadie.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword">
+                    <label for="exampleInputPassword2" class="form-label">Confirma tu contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-info" data-bs-target="#logInModal" data-bs-toggle="modal">Ya tengo cuenta</button>
+            <button class="btn btn-success" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Ingresar</button>
+        </div>
+        </div>
+    </div>
+</div>

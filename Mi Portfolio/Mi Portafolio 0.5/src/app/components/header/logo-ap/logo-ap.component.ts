@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './logo-ap.component.html',
   styleUrls: ['./logo-ap.component.css']
 })
-export class LogoApComponent {
+export class LogoAPComponent {
 
 }

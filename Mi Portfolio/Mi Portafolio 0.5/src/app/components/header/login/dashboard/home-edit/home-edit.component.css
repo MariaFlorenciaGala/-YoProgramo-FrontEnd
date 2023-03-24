@@ -1,0 +1,15 @@
+
+.name{
+    display: flex;
+    padding-top: 3%;
+    font-size: 100%;
+    font-family:'Bebas','Arimo','Bebas','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color:#212121;
+    text-shadow: 10%;
+    text-shadow: #03c0cd8f 1px 1px 10px;
+    font-weight:-300;
+}
+
+img{
+    width: 250px;
+}

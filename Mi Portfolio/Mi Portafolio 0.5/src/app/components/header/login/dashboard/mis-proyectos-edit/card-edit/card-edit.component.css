@@ -1,0 +1,4 @@
+.card:hover{
+    box-shadow: 5px 10px 20px #08aca3d1;
+    transform: translateY(-3%)
+}
