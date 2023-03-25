@@ -1,0 +1,15 @@
+{
+  "nombre": "María Florencia",
+  "apellido": "Gala",
+  "titulo": "Full Stack Development",
+  "intoduccion": "Éste es mi portfolio,aquí encontrarás mis proyectos , información personal y de contacto, espero que lo disfrutes",
+  "img":"/assets/images-home/image-1.jpg",
+  "acerca_de_mi": "Hola! soy una programadora en constante evolución y con ganas de encarar día a día nuevos desafíos. Manejo muy bien las frustraciones y las considero parte del camino para encontrar los objetivos. Optimizo recursos, logro objetivos , busco formas de resolver y si no las conozco...las aprendo. Mi objetivo es crecer, evolucionar y disfrutar de cada logro . Espero poder brindarte apoyo en lo que estés buscando y logremos trabajar juntos en nuevos proyectos.",
+  
+  "educación": [{
+    "id":0,
+    "inicio": "Marzo 2022",
+    "fin": "Mayo 2022",
+    "img": "/assets/images-educacion/LogoArgPrograma.jpg"
+  }]
+}

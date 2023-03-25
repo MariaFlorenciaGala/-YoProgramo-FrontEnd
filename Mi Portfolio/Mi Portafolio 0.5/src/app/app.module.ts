@@ -30,6 +30,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CalculadoraComponent } from './components/misproyectos/proyectos/calculadora/calculadora.component';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ErrorComponent } from './components/error/error.component';
 
 
 
@@ -60,6 +61,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     EducacionEditComponent,
     CardEditComponent,
     CalculadoraComponent,
+    ErrorComponent,
 
 
   ],

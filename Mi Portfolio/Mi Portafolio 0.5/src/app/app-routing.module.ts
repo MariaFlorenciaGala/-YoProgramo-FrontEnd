@@ -9,6 +9,7 @@ import { EducacionComponent } from './components/educacion/educacion.component';
 import { ExperienciaLaboralComponent } from './components/experiencia-laboral/experiencia-laboral.component';
 import { LoginComponent } from './components/header/login/login.component';
 import { DashboardComponent } from './components/header/login/dashboard/dashboard.component';
+import { ErrorComponent } from './components/error/error.component'
 
 
 const routes: Routes = [
@@ -20,6 +21,7 @@ const routes: Routes = [
   {path: 'experiencia-laboral', component:ExperienciaLaboralComponent},
   {path: 'login', component:LoginComponent},
   {path: 'dashboard', component:DashboardComponent},
+  {path: '**', component:ErrorComponent},
 
 ];
 
