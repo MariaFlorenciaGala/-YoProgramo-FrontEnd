@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { PortfolioService } from 'src/app/services/portfolio.service';
 
 @Component({
@@ -7,12 +7,22 @@ import { PortfolioService } from 'src/app/services/portfolio.service';
   styleUrls: ['./acerca-de-mi.component.css']
 })
 export class AcercaDeMiComponent  {
-nombre: String  
-  constructor(){ }
+nombre: String = '';
+apellido: String = '';
+acerca: String = '';
+
+imgAcerca: any;
+
+
+  constructor(private portfolioService:PortfolioService){ }
 
   ngOnInit():void{
-
-
+    this.portfolioService.getDatos().subscribe(datos => {
+      console.log(datos);
+      this.nombre = datos.nombre;
+      this.apellido = datos.apellido;
+      this.acerca = datos.acerca;
+      this.imgAcerca = datos.imgAcerca
+    });
   }
-
 }

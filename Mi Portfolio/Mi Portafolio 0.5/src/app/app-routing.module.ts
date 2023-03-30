@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 //Importo mis componentes
 import { AcercaDeMiComponent } from './components/acerca-de-mi/acerca-de-mi.component';
 import { MisproyectosComponent } from './components/misproyectos/misproyectos.component';
@@ -27,6 +28,6 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule, HttpClientModule]
 })
 export class AppRoutingModule { }

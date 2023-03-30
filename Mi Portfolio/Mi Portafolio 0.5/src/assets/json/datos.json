@@ -2,14 +2,271 @@
   "nombre": "María Florencia",
   "apellido": "Gala",
   "titulo": "Full Stack Development",
-  "intoduccion": "Éste es mi portfolio,aquí encontrarás mis proyectos , información personal y de contacto, espero que lo disfrutes",
-  "img":"/assets/images-home/image-1.jpg",
-  "acerca_de_mi": "Hola! soy una programadora en constante evolución y con ganas de encarar día a día nuevos desafíos. Manejo muy bien las frustraciones y las considero parte del camino para encontrar los objetivos. Optimizo recursos, logro objetivos , busco formas de resolver y si no las conozco...las aprendo. Mi objetivo es crecer, evolucionar y disfrutar de cada logro . Espero poder brindarte apoyo en lo que estés buscando y logremos trabajar juntos en nuevos proyectos.",
-  
-  "educación": [{
+  "introduccion": "Éste es mi portfolio,aquí encontrarás mis proyectos , información personal y de contacto, espero que lo disfrutes",
+  "imgHome":"../../../assets/images-home/image-1.jpg",
+  "introProyectos": "Estos son los proyectos en los que he participado hasta la fecha, cada uno de ellos un desafío cumplido.",
+  "proyectos":[
+    {
     "id":0,
-    "inicio": "Marzo 2022",
-    "fin": "Mayo 2022",
-    "img": "/assets/images-educacion/LogoArgPrograma.jpg"
-  }]
+    "imgProyecto": "../../../assets/images-proyects/Pokedesk",
+    "proyecto" :"Pokedesk",
+    "descripcionProyecto": "Aqui comencé en el mundo de las APIS, con una Pokedesk que invoca habilidades, tipo y movimientos.",
+    "link": "url(#)"
+  },
+  {
+    "id":1,
+    "imgProyecto": "../../../assets/images-proyects/Calculadora",
+    "proyecto" :"Calculadora",
+    "descripcionProyecto": "Una Calculadora que me ayudó con javasCript , implementando funciones de raiz, potencia y resto.",
+    "link": ""
+  }],
+  "hardSkills":[
+    {
+      "id": "HTML",
+      "%": "85",
+      "imgHard": "../../../assets/images-hard&soft/logoHTML5.png"
+    },
+    {
+      "id": "CSS",
+      "%": "85",
+      "imgHard": "../../../assets/images-hard&soft/logoCSS.png"
+    },
+    {
+      "id": "JavaScript",
+      "%": "85",
+      "imgHard":"../../../assets/images-hard&soft/logoJavaScript.png"
+    },
+    {
+      "id": "GitHub",
+      "%": "70",
+      "imgHard": "../../../assets/images-hard&soft/logoGitHub.png"
+    },
+    {
+      "id": "NodeJS",
+      "%": "70",
+      "imgHard": "../../../assets/images-hard&soft/logoNODEJS.png"
+    },
+    {
+      "id": "Photoshop",
+      "%": "85",
+      "imgHard": "../../../assets/images-hard&soft/logoPhotoshop.png"
+    },
+    {
+      "id": "SonyVegas",
+      "%": "85",
+      "imgHard": "../../../assets/images-hard&soft/logoSonyVegas.png"
+    },
+    {
+      "id": "Angular",
+      "%": "70",
+      "imgHard": "../../../assets/images-hard&soft/logoAngular.png"
+    },
+    {
+      "id": "Phyton",
+      "%": "70",
+      "imgHard": "../../../assets/images-hard&soft/logoPython.png"
+    }
+  ],
+  "softSkills":[
+      {
+        "id": "AprendizajeIndependiente",
+        "%": "90",
+        "imgSoft": "../../../assets/images-hard&soft/AprendizajeIndependiente.png"
+      },
+      {
+        "id": "Compromiso",
+        "%": "100",
+        "imgSoft": "../../../assets/images-hard&soft/compromiso.png"
+      },
+      {
+        "id": "TrabajoEnEquipo",
+        "%": "90",
+        "imgSoft":"../../../assets/images-hard&soft/trabajoEnEquipo.png"
+      },
+      {
+        "id": "Creatividad",
+        "%": "90",
+        "imgSoft": "../../../assets/images-hard&soft/creatividad.png"
+      },
+      {
+        "id": "Flexibilidad",
+        "%": "80",
+        "imgSoft": "../../../assets/images-hard&soft/flexibilidad.png"
+      },
+      {
+        "id": "HabilidadesDigitales",
+        "%": "85",
+        "imgSoft":"../../../assets/images-hard&soft/habilidadesDigital.png"
+      },
+      {
+        "id": "MentalidadDeCrecimiento",
+        "%": "90",
+        "imgSoft": "../../../assets/images-hard&soft/mentalidadDeCrecimiento.png"
+      },
+      {
+        "id": "PensamientoCrítico",
+        "%": "80",
+        "imgSoft":"../../../assets/images-hard&soft/pensamientoCritico.png"
+      },
+      {
+      "id": "Resiliencia",
+      "%": "80",
+      "imgSoft":"../../../assets/images-hard&soft/resiliencia.png"
+      }
+  ],
+  "cursos": [
+    {
+    "id":0,
+    "titulo": "#YO PROGRAMO",
+    "descripcion": "Segunda etapa del plan Argentina programa, dictado por INTI.",
+    "fin": "2023",
+    "img": "../../../assets/images-educacion/LogoArgPrograma.jpg",
+    "certificado": "si"
+    },
+    {
+    "id":1,
+    "titulo": "#SÉ PROGRAMAR",
+    "descripción": "Primera etapa del plan Argentina programa, dictado por INTI.",
+    "fin": "2022",
+    "img": "../../../assets/images-educacion/LogoArgPrograma.jpg",
+    "certificado": "si"
+    },
+    {
+    "id":2,
+    "titulo": "Desarrollador Phython",
+    "descripción": "Curso disctado por Edutin",
+    "fin": "Agosto 2022",
+    "img": "../../../assets/images-educacion/LogoEdutin.JPG",
+    "certificado": "no"
+    },
+    {
+    "id":3,
+    "titulo": "JAVA ALGORITHMS AND DATA STRUCTURE",
+    "descripción": "Curso dictado por freeCodeCamp",
+    "fin": "Agosto 2022",
+    "img": "../../../assets/images-educacion/LogoFreeCodeCamp.jpg",
+    "certificado": "si"
+    },
+    {
+    "id":4,
+    "titulo": "CIBERSEGURIDAD EN EL TRABAJO",
+    "descripción": "Curso dictado por Google Activate",
+    "fin": "Septiembre 2021",
+    "img": "../../../assets/images-educacion/LogoGoogleActivate.jpg",
+    "certificado": "si"
+    },
+    {
+    "id":5,
+    "titulo": "INTRODUCCION AL DESARROLLO WEB",
+    "descripción": "Curso dictado por Google Activate",
+    "fin": "Septiembre 2021",
+    "img": "../../../assets/images-educacion/LogoGoogleActivate.jpg",
+    "certificado": "si"
+    },
+    {
+    "id":6,
+    "titulo": "DESARROLO DE APPS MÓVILES",
+    "descripción": "Curso dictado por Google Activate",
+    "fin": "Agosto 2022",
+    "img": "../../../assets/images-educacion/LogoGoogleActivate.jpg",
+    "certificado": "si"
+    },
+    {
+    "id":7,
+    "titulo": "EDICIÓN DE VIDEO, PHOTOSHOP , DISEÑO GRÁFICO",
+    "descripción": "Autodidacta",
+    "fin": "Sin fin",
+    "img": "../../../assets/images-educacion/LogoYoutube.jpg",
+    "certificado": "no"
+    },
+    {
+    "id":8,
+    "titulo": "FOTOGRAFÍA",
+    "descripción": "Centro Kandisky",
+    "fin": "Diciembre 2013",
+    "img": "/assets/images-educacion/LogoYoutube.jpg",
+    "certificado": "no"
+    },
+    {
+      "id":9,
+      "titulo": "SECRETARIADO EJECUTIVO",
+      "descripción": "Curso dictado por Fundacion BICA",
+      "fin": "Septiembre 2009",
+      "img": "../../../assets/images-educacion/LogoFundacionBica.jpg",
+      "certificado": "si"
+      },     
+    {
+      "id":10,
+      "titulo": "AUXILIAR EN RELACIONES PÚBLICAS",
+      "descripción": "Curso dictado por Fundacion BICA",
+      "fin": "Abril 2006",
+      "img": "../../../assets/images-educacion/LogoFundacionBica.jpg",
+      "certificado": "si"
+      },     
+    {
+      "id":11,
+      "titulo": "TÉCNICO EN ADMINISTRACIÓN DE EMPRESAS",
+      "descripción": "Curso dictado por System",
+      "fin": "Diciembre 2005",
+      "img": "../../../assets/images-educacion/LogoSystem.jpg",
+      "certificado": "si"
+      },     
+    {
+      "id":12,
+      "titulo": "Secundario",
+      "descripción": "Bachiller orientado a la producción de bienes y servicios",
+      "fin": "Diciembre 2009",
+      "img": "../../../assets/images-educacion/LogoMinisterio.png"
+    }   
+  ],  
+  "experienciaLaboral": [
+    {
+    "id":0,
+    "nombre": "Sanando",
+    "titulo":"Propietaria editora",
+    "descripción": "Editora de videos de canal propio , tengo al 03/2023 101.000 suscriptores. Corto, edito y resubo videos de Biodesprogramación.",
+    "desde": "Febrero 2011",
+    "fin": "Actual",
+    "img": "../../../assets/images-experiencia/LogoSanando.jpg"
+    },
+    {
+    "id":1,
+    "nombre": "Plot-Vinilos",
+    "titulo":"Propietaria y diseñadora",
+    "descripción": "Diseño con maquinaria propia calcos, esmerilados a gran escala , vinilos textiles , diseños de remeras, rotulación vehicular y todo lo que tenga que ver con vinilos.",
+    "desde": "Noviembre 2015",
+    "fin": "Actual",
+    "img": "../../../assets/images-experiencia/LogoSanando.jpg"
+    },
+    {
+    "id":2,
+    "nombre": "Maria Florencia Gala",
+    "titulo":"Fotógrafa y editora de video",
+    "descripción": "Fotógrafa social y de eventos , manejo de photoshop , manipulacion de imágenes , edición de videos para bandas, quinceaños, familiares, etc.",
+    "desde": "Noviembre 2017",
+    "fin": "Actual",
+    "img": "../../../assets/images-experiencia/LogoFloryGala.jpg"
+    },
+    {
+    "id":3,
+    "nombre": "Cencosud",
+    "descripción": "Desde que ingresé en mi pueblo natal (Marcos Juarez )como cajera para la empresa Cencosud, estuve en la búsqueda de crecimiento.Tuve la posibilidad gracias a mi desempeño de crecer a encargada de caja y posteriormente a supervisora de caja. Luego, me traslade a Córdoba capital donde comencé la carrera de Marketing de la empresa y logré el puesto de asistente de Marketing.",
+    "titulo1":"Analista de Marketing",
+    "desde1": "Julio 2016",
+    "fin1": "Octubre 2020 ",
+    "titulo2":"Supervisora de cajas",
+    "desde2": "Noviembre 2013",
+    "titulo3":"Repósitora y cajera",
+    "desde3": "Julio 2011",
+    "img": "../../../assets/images-experiencia/LogoCencosud.jpg"
+    }
+  ],
+  "acerca": "Hola! soy una programadora en constante evolución y con ganas de encarar día a día nuevos desafíos. Manejo muy bien las frustraciones y las considero parte del camino para encontrar los objetivos. Optimizo recursos, logro objetivos , busco formas de resolver y si no las conozco...las aprendo. Mi objetivo es crecer, evolucionar y disfrutar de cada logro . Espero poder brindarte apoyo en lo que estés buscando y logremos trabajar juntos en nuevos proyectos.",
+  "imgAcerca": "../../../assets/images-home/image-1.jpg",
+  "contacteme":"Contácteme!",
+  "introContacto": "me encantaría trabajar con usted",
+  "telefono":"+54 3472 509569",
+  "mail": "MariaFlorenciaGala8@gmail.com",
+  "ubicacion": "Maestra Florentina Rosas 1188, Marcos Juárez, Cordoba, Argentina.",
+  "imgError": "../../../assets/images-error/error.jpg"
 }

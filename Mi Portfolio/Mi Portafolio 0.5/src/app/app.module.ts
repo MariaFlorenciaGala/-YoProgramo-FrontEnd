@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { AcercaDeMiComponent } from './components/acerca-de-mi/acerca-de-mi.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { HomeComponent } from './components/home/home.component';
+
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { ExperienciaLaboralComponent } from './components/experiencia-laboral/experiencia-laboral.component';
 import { MisproyectosComponent } from './components/misproyectos/misproyectos.component';
@@ -40,7 +41,7 @@ import { ErrorComponent } from './components/error/error.component';
     HeaderComponent,
     AcercaDeMiComponent,
     NavbarComponent,
-    HomeComponent,
+    
     EducacionComponent,
     ExperienciaLaboralComponent,
     MisproyectosComponent,
