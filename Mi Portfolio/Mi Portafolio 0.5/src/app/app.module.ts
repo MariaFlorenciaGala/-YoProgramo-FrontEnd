@@ -29,7 +29,7 @@ import { EducacionEditComponent } from './components/header/login/dashboard/educ
 import { CardEditComponent } from './components/header/login/dashboard/mis-proyectos-edit/card-edit/card-edit.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CalculadoraComponent } from './components/misproyectos/proyectos/calculadora/calculadora.component';
-
+import { HomeComponent } from './components/home/home.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ErrorComponent } from './components/error/error.component';
 
@@ -41,7 +41,7 @@ import { ErrorComponent } from './components/error/error.component';
     HeaderComponent,
     AcercaDeMiComponent,
     NavbarComponent,
-    
+    HomeComponent,
     EducacionComponent,
     ExperienciaLaboralComponent,
     MisproyectosComponent,

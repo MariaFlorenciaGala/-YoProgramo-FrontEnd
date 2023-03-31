@@ -17,12 +17,11 @@ imgAcerca: any;
   constructor(private portfolioService:PortfolioService){ }
 
   ngOnInit():void{
-    this.portfolioService.getDatos().subscribe(datos => {
-      console.log(datos);
-      this.nombre = datos.nombre;
-      this.apellido = datos.apellido;
-      this.acerca = datos.acerca;
-      this.imgAcerca = datos.imgAcerca
+    this.portfolioService.getDatos().subscribe(portfolio => {
+      this.nombre = portfolio.nombre;
+      this.apellido = portfolio.apellido;
+      this.acerca = portfolio.acerca;
+      this.imgAcerca = portfolio.imgAcerca
     });
   }
 }

@@ -7,6 +7,7 @@ import { PortfolioService } from 'src/app/services/portfolio.service';
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
+})
 
 export class HomeComponent implements OnInit{
 //Acá hay que poner una variable de instancia en cada componente
@@ -15,7 +16,7 @@ export class HomeComponent implements OnInit{
   apellido: string = '';
   titulo: string = ''; 
   introduccion: string = '';
-})
+  imgHome: any;
 
   infoPorfolio: any;
 
@@ -24,18 +25,12 @@ export class HomeComponent implements OnInit{
 
   ngOnInit(): void{
     this.portfolioService.getDatos().subscribe(portfolio => {
-      console.log(portfolio);
-
-
     //Definir informacion a mostrar
     this.nombre = portfolio.nombre;
     this.apellido = portfolio.apellido;
     this.titulo = portfolio.titulo;
     this.introduccion = portfolio.introduccion;
-
-
-
+    this.imgHome = portfolio.imgHome;
   });
-
   }
 }

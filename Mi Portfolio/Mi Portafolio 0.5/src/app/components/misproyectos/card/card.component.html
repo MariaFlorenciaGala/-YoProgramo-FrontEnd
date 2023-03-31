@@ -1,22 +1,11 @@
 <div class="row row-cols-1 row-cols-md-4 g-4">
-    <div class="col">
+    <div class="col" *ngFor="let proyecto of proyectos">
         <div class="card">
-            <img src="../../../assets/images-proyects/Pokedesk.JPG" alt="Imagen Pokedesk" >
+            <img src="proyecto.img" alt="Imagen del proyecto">
             <div class="card-body">
-                <h5 class="card-title">Pokedesk</h5>
-                <p class="card-text">Aqui comencé en el mundo de las APIS, con una Pokedesk que invoca habilidades, tipo y movimientos.</p>
-                <button href="../../../../../Prácticas/02-Pokedesk/Index.html"class="btn btn-outline-success" >Ir a probarlo!</button>
+                <h5 class="card-title"> {{ proyecto.nombre }}</h5>
+                <p class="card-text">{{ proyecto.descripcion }}</p>
+                <button href="proyecto.link"class="btn btn-outline-success" >Ir a probarlo!</button>
             </div>
         </div>
     </div>
-    <div class="col">
-        <div class="card">
-            <img src="../../../assets/images-proyects/Calculadora.JPG" class="card-img-top" alt="Imagen calculadora">
-            <div class="card-body">
-                <h5 class="card-title">Calculadora</h5>
-                <p class="card-text">Una Calculadora que me ayudó con javasCript , implementando funciones de raiz, potencia y resto.</p>
-                <button class="btn btn-outline-success" >Ir a probarlo!</button>
-            </div>
-        </div>
-    </div>
-</div>
