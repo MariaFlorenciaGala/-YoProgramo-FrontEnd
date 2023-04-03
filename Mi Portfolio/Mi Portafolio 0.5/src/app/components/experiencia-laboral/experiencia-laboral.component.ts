@@ -15,7 +15,7 @@ export class ExperienciaLaboralComponent implements OnInit{
   ngOnInit(): void {
       this.portfolioService.getDatos().subscribe(portfolio =>{
         this.experiencias = portfolio.experiencias;
-        this.puestos = portfolio.experiencias.puestos;
+        this.puestos = this.experiencias.puestos;
       })
   }
 

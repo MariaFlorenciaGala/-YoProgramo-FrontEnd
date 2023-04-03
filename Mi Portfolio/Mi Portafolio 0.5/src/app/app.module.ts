@@ -15,23 +15,16 @@ import { CopyrightComponent } from './components/copyright/copyright.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { AppRoutingModule } from './app-routing.module';
 import { LogoAPComponent } from './components/header/logo-ap/logo-ap.component';
-import { LoginComponent } from './components/header/login/login.component';
 import { CardComponent } from './components/misproyectos/card/card.component';
 import { DashboardComponent } from './components/header/login/dashboard/dashboard.component';
 import { RedesComponent } from './components/header/redes/redes.component';
-import { HomeEditComponent } from './components/header/login/dashboard/home-edit/home-edit.component';
-import { AcercaDeMiEditComponent } from './components/header/login/dashboard/acerca-de-mi-edit/acerca-de-mi-edit.component';
-import { ContactoEditComponent } from './components/header/login/dashboard/contacto-edit/contacto-edit.component';
-import { ExperienciaLaboralEditComponent } from './components/header/login/dashboard/experiencia-laboral-edit/experiencia-laboral-edit.component';
-import { HardEditComponent } from './components/header/login/dashboard/hard-edit/hard-edit.component';
-import { MisProyectosEditComponent } from './components/header/login/dashboard/mis-proyectos-edit/mis-proyectos-edit.component';
-import { EducacionEditComponent } from './components/header/login/dashboard/educacion-edit/educacion-edit.component';
-import { CardEditComponent } from './components/header/login/dashboard/mis-proyectos-edit/card-edit/card-edit.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CalculadoraComponent } from './components/misproyectos/proyectos/calculadora/calculadora.component';
 import { HomeComponent } from './components/home/home.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ErrorComponent } from './components/error/error.component';
+import { PokedeskComponent } from './components/misproyectos/pokedesk/pokedesk.component';
+import { LogInComponent } from './components/header/login/log-in/log-in.component';
 
 
 
@@ -50,19 +43,12 @@ import { ErrorComponent } from './components/error/error.component';
     CopyrightComponent,
     LogoAPComponent,
     CardComponent,
-    LoginComponent,
     DashboardComponent,
     RedesComponent,
-    HomeEditComponent,
-    AcercaDeMiEditComponent,
-    ContactoEditComponent,
-    ExperienciaLaboralEditComponent,
-    HardEditComponent,
-    MisProyectosEditComponent,
-    EducacionEditComponent,
-    CardEditComponent,
     CalculadoraComponent,
     ErrorComponent,
+    PokedeskComponent,
+    LogInComponent,
 
 
   ],

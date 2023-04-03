@@ -1,11 +1,11 @@
 <div class="row row-cols-1 row-cols-md-4 g-4">
     <div class="col" *ngFor="let proyecto of proyectos">
         <div class="card">
-            <img src="proyecto.img" alt="Imagen del proyecto">
+            <img [src]="proyecto.img" alt="Imagen del proyecto">
             <div class="card-body">
                 <h5 class="card-title"> {{ proyecto.nombre }}</h5>
                 <p class="card-text">{{ proyecto.descripcion }}</p>
-                <button href="proyecto.link"class="btn btn-outline-success" >Ir a probarlo!</button>
+                <button class="btn btn-outline-success">Ir a probarlo!</button>
             </div>
         </div>
     </div>

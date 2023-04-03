@@ -1,4 +1,4 @@
-{
+{ 
   "nombre": "María Florencia",
   "apellido": "Gala",
   "titulo": "Full Stack Development",
@@ -11,7 +11,7 @@
     "img": "../../../assets/images-proyects/Pokedesk.JPG",
     "nombre" :"Pokedesk",
     "descripcion": "Aqui comencé en el mundo de las APIS, con una Pokedesk que invoca habilidades, tipo y movimientos.",
-    "link": "url(#)"
+    "link": ""
     },
     {
     "id":1,
@@ -24,94 +24,94 @@
   "hardSkills":[
     {
       "id": "HTML",
-      "%": "85",
+      "porcentaje": 85,
       "imgHard": "../../../assets/images-hard&soft/logoHTML5.png"
     },
     {
       "id": "CSS",
-      "%": "85",
+      "porcentaje": 85,
       "imgHard": "../../../assets/images-hard&soft/logoCSS.png"
     },
     {
       "id": "JavaScript",
-      "%": "85",
+      "porcentaje": 85,
       "imgHard":"../../../assets/images-hard&soft/logoJavaScript.png"
     },
     {
       "id": "GitHub",
-      "%": "70",
+      "porcentaje": 70,
       "imgHard": "../../../assets/images-hard&soft/logoGitHub.png"
     },
     {
       "id": "NodeJS",
-      "%": "70",
+      "porcentaje": 70,
       "imgHard": "../../../assets/images-hard&soft/logoNODEJS.png"
     },
     {
       "id": "Photoshop",
-      "%": "85",
+      "porcentaje": 85,
       "imgHard": "../../../assets/images-hard&soft/logoPhotoshop.png"
     },
     {
       "id": "SonyVegas",
-      "%": "85",
+      "porcentaje": 85,
       "imgHard": "../../../assets/images-hard&soft/logoSonyVegas.png"
     },
     {
       "id": "Angular",
-      "%": "70",
+      "porcentaje": 70,
       "imgHard": "../../../assets/images-hard&soft/logoAngular.png"
     },
     {
       "id": "Phyton",
-      "%": "70",
+      "porcentaje": 70,
       "imgHard": "../../../assets/images-hard&soft/logoPython.png"
     }
   ],
   "softSkills":[
       {
         "id": "AprendizajeIndependiente",
-        "%": "90",
+        "porcentaje": 90,
         "imgSoft": "../../../assets/images-hard&soft/AprendizajeIndependiente.png"
       },
       {
         "id": "Compromiso",
-        "%": "100",
+        "porcentaje": 100,
         "imgSoft": "../../../assets/images-hard&soft/compromiso.png"
       },
       {
         "id": "TrabajoEnEquipo",
-        "%": "90",
+        "porcentaje": 90,
         "imgSoft":"../../../assets/images-hard&soft/trabajoEnEquipo.png"
       },
       {
         "id": "Creatividad",
-        "%": "90",
+        "porcentaje": 90,
         "imgSoft": "../../../assets/images-hard&soft/creatividad.png"
       },
       {
         "id": "Flexibilidad",
-        "%": "80",
+        "porcentaje": 80,
         "imgSoft": "../../../assets/images-hard&soft/flexibilidad.png"
       },
       {
         "id": "HabilidadesDigitales",
-        "%": "85",
+        "porcentaje": 85,
         "imgSoft":"../../../assets/images-hard&soft/habilidadesDigital.png"
       },
       {
         "id": "MentalidadDeCrecimiento",
-        "%": "90",
+        "porcentaje": 90,
         "imgSoft": "../../../assets/images-hard&soft/mentalidadDeCrecimiento.png"
       },
       {
         "id": "PensamientoCrítico",
-        "%": "80",
+        "porcentaje": 80,
         "imgSoft":"../../../assets/images-hard&soft/pensamientoCritico.png"
       },
       {
       "id": "Resiliencia",
-      "%": "80",
+      "porcentaje": 80,
       "imgSoft":"../../../assets/images-hard&soft/resiliencia.png"
       }
   ],
@@ -189,37 +189,36 @@
     "certificado": "no"
     },
     {
-      "id":9,
-      "titulo": "SECRETARIADO EJECUTIVO",
-      "descripcion": "Curso dictado por Fundacion BICA",
-      "fin": "Septiembre 2009",
-      "img": "../../../assets/images-educacion/LogoFundacionBica.JPG",
-      "certificado": "si"
-      },     
+    "id":9,
+    "titulo": "SECRETARIADO EJECUTIVO",
+    "descripcion": "Curso dictado por Fundacion BICA",
+    "fin": "Septiembre 2009",
+    "img": "../../../assets/images-educacion/LogoFundacionBica.JPG",
+    "certificado": "si"
+    },     
     {
-      "id":10,
-      "titulo": "AUXILIAR EN RELACIONES PÚBLICAS",
-      "descripcion": "Curso dictado por Fundacion BICA",
-      "fin": "Abril 2006",
-      "img": "../../../assets/images-educacion/LogoFundacionBica.JPG",
-      "certificado": "si"
-      },     
+    "id":10,
+    "titulo": "AUXILIAR EN RELACIONES PÚBLICAS",
+    "descripcion": "Curso dictado por Fundacion BICA",
+    "fin": "Abril 2006",
+    "img": "../../../assets/images-educacion/LogoFundacionBica.JPG",
+    "certificado": "si"
+    },     
     {
-      "id":11,
-      "titulo": "TÉCNICO EN ADMINISTRACIÓN DE EMPRESAS",
-      "descripcion": "Curso dictado por System",
-      "fin": "Diciembre 2005",
-      "img": "../../../assets/images-educacion/LogoSystem.JPG",
-      "certificado": "si"
-      },     
+    "id":11,
+    "titulo": "TÉCNICO EN ADMINISTRACIÓN DE EMPRESAS",
+    "descripcion": "Curso dictado por System",
+    "fin": "Diciembre 2005",
+    "img": "../../../assets/images-educacion/LogoSystem.JPG",
+    "certificado": "si"
+    },     
     {
-      "id":12,
-      "titulo": "Secundario",
-      "descripcion": "Bachiller orientado a la producción de bienes y servicios",
-      "fin": "Diciembre 2009",
-      "img": "../../../assets/images-educacion/LogoMinisterio.jpg",
-      "certificado": "si"
-
+    "id":12,
+    "titulo": "Secundario",
+    "descripcion": "Bachiller orientado a la producción de bienes y servicios",
+    "fin": "Diciembre 2009",
+    "img": "../../../assets/images-educacion/LogoMinisterio.jpg",
+    "certificado": "si"
     }   
   ],  
   "experiencias": [
@@ -231,7 +230,7 @@
     "puestos":[{
         "titulo":"Propietaria editora",
         "desde": "Febrero 2011",
-        "fin": "Actual"
+        "hasta": "Actual"
       }]
     },
     {
@@ -242,7 +241,7 @@
     "puestos":[{
         "titulo":"Propietaria y diseñadora",
         "desde": "Noviembre 2015",
-        "fin": "Actual"
+        "hasta": "Actual"
     }]
     },
     {
@@ -253,7 +252,7 @@
     "puestos":[{
       "titulo":"Fotógrafa y editora de video",
       "desde": "Noviembre 2017",
-      "fin": "Actual"
+      "hasta": "Actual"
     }]
     },
     {
@@ -284,5 +283,21 @@
   "telefono":"+54 3472 509569",
   "mail": "MariaFlorenciaGala8@gmail.com",
   "ubicacion": "Maestra Florentina Rosas 1188, Marcos Juárez, Cordoba, Argentina.",
-  "imgError": "../../../assets/images-error/error.JPG"
+  "imgError": "../../../assets/images-error/error.JPG",
+  "redes":[{
+    "nombre": "twitter",
+    "link":"https://twitter.com/BatallaCordoba"
+    },
+    {
+    "nombre": "facebook",
+    "link":"https://www.facebook.com/FloryCordoba"
+    },
+    {
+    "nombre": "linkedin",
+    "link": "https://www.linkedin.com/in/mariflor/" 
+    },
+    {
+      "nombre":"github",
+      "link": "https://github.com/Flory3508"
+    }]
 }

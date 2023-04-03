@@ -14,8 +14,6 @@ export class MisproyectosComponent implements OnInit{
   ngOnInit():void{
     this.portfolioService.getDatos().subscribe(portfolio => {
       this.introProyectos = portfolio.introProyectos;
-
     })
   }
-
 }

@@ -8,21 +8,26 @@ import { HardComponent } from './components/hard/hard.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { ExperienciaLaboralComponent } from './components/experiencia-laboral/experiencia-laboral.component';
-import { LoginComponent } from './components/header/login/login.component';
 import { DashboardComponent } from './components/header/login/dashboard/dashboard.component';
 import { ErrorComponent } from './components/error/error.component'
+import { LogInComponent } from './components/header/login/log-in/log-in.component';
 
 
 const routes: Routes = [
-  {path: 'acerca-de-mi', component:AcercaDeMiComponent},
-  {path: 'mis-proyectos', component:MisproyectosComponent},
-  {path: 'hard-and-soft', component:HardComponent},
+  {path: 'acercaDeMi', component:AcercaDeMiComponent},
+  {path: 'misProyectos', component:MisproyectosComponent},
+  {path: 'hardAndSoft', component:HardComponent},
   {path: 'contacto', component:ContactoComponent},
   {path: 'educacion', component:EducacionComponent},
-  {path: 'experiencia-laboral', component:ExperienciaLaboralComponent},
-  {path: 'login', component:LoginComponent},
-  {path: 'dashboard', component:DashboardComponent},
+  {path: 'experienciaLaboral', component:ExperienciaLaboralComponent},
+  {path: 'login', component:LogInComponent},
+  {path: 'dashboard', component:DashboardComponent, //canActivate:[AuthGuard],
+},
   {path: '**', component:ErrorComponent},
+  {path: '', redirectTo:'/home', pathMatch: 'full'},
+  
+  
+
 
 ];
 
