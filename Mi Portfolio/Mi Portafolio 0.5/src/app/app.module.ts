@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { AppRoutingModule } from './app-routing.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -13,15 +16,11 @@ import { HardComponent } from './components/hard/hard.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { CopyrightComponent } from './components/copyright/copyright.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
-import { AppRoutingModule } from './app-routing.module';
 import { LogoAPComponent } from './components/header/logo-ap/logo-ap.component';
 import { CardComponent } from './components/misproyectos/card/card.component';
-import { DashboardComponent } from './components/header/login/dashboard/dashboard.component';
 import { RedesComponent } from './components/header/redes/redes.component';
-import { HttpClientModule } from '@angular/common/http';
 import { CalculadoraComponent } from './components/misproyectos/proyectos/calculadora/calculadora.component';
 import { HomeComponent } from './components/home/home.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ErrorComponent } from './components/error/error.component';
 import { PokedeskComponent } from './components/misproyectos/pokedesk/pokedesk.component';
 import { LogInComponent } from './components/header/login/log-in/log-in.component';
@@ -43,14 +42,11 @@ import { LogInComponent } from './components/header/login/log-in/log-in.componen
     CopyrightComponent,
     LogoAPComponent,
     CardComponent,
-    DashboardComponent,
     RedesComponent,
     CalculadoraComponent,
     ErrorComponent,
     PokedeskComponent,
     LogInComponent,
-
-
   ],
   imports: [
     AppRoutingModule,

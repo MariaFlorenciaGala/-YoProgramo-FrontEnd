@@ -6,43 +6,33 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <a class="navbar-brand "></a>
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="myTab" role="tablist"><img src="assets/Logo 2.png" alt="logo" width="50px" />
-    
-      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="myTab" role="tablist"><img src="assets/Logo2.jpg" alt="logo" width="50px" />
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
         <li class="nav-item">
-        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+        <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true" routerLink="home">Home</button>
         </li>
         <li class="nav-item">
-        <button class="nav-link" id="nav-misproyectos-tab" data-bs-toggle="tab" data-bs-target="#nav-misproyectos" type="button" role="tab" aria-controls="nav-misproyectos" aria-selected="false">Mis proyectos</button>
+        <button class="nav-link" id="nav-misproyectos-tab" data-bs-toggle="tab" data-bs-target="#nav-misproyectos" type="button" role="tab" aria-controls="nav-misproyectos" aria-selected="false" routerLink="misProyectos">Mis proyectos</button>
         </li>
         <li class="nav-item">
-        <button class="nav-link" id="nav-hard-tab" data-bs-toggle="tab" data-bs-target="#nav-hard" type="button" role="tab" aria-controls="nav-hard" aria-selected="false">Hard & soft skills</button>
+        <button class="nav-link" id="nav-hard-tab" data-bs-toggle="tab" data-bs-target="#nav-hard" type="button" role="tab" aria-controls="nav-hard" aria-selected="false" routerLink="hardAndSoft">Hard & soft skills</button>
         </li>
         <li class="nav-item">
-        <button class="nav-link" id="nav-educacion-tab" data-bs-toggle="tab" data-bs-target="#nav-educacion" type="button" role="tab" aria-controls="nav-educacion" aria-selected="false">Educación</button>
+        <button class="nav-link" id="nav-educacion-tab" data-bs-toggle="tab" data-bs-target="#nav-educacion" type="button" role="tab" aria-controls="nav-educacion" aria-selected="false" routerLink="educacion">Educación</button>
         </li>
         <li class="nav-item">
-        <button class="nav-link" id="nav-experiencia-tab" data-bs-toggle="tab" data-bs-target="#nav-experiencia" type="button" role="tab" aria-controls="nav-experiencia" aria-selected="false">Experiencia laboral</button>
+        <button class="nav-link" id="nav-experiencia-tab" data-bs-toggle="tab" data-bs-target="#nav-experiencia" type="button" role="tab" aria-controls="nav-experiencia" aria-selected="false" routerLink="experienciaLaboral">Experiencia laboral</button>
         </li>
         <li class="nav-item">
-        <button class="nav-link" id="nav-sobremi-tab" data-bs-toggle="tab" data-bs-target="#nav-sobremi" type="button" role="tab" aria-controls="nav-sobremi" aria-selected="false">Sobre mi</button>
+        <button class="nav-link" id="nav-sobremi-tab" data-bs-toggle="tab" data-bs-target="#nav-sobremi" type="button" role="tab" aria-controls="nav-sobremi" aria-selected="false" routerLink="sobreMi">Sobre mi</button>
         </li>
         <li class="nav-item">
-        <button class="nav-link" id="nav-contacto-tab" data-bs-toggle="tab" data-bs-target="#nav-contacto" type="button" role="tab" aria-controls="nav-contacto" aria-selected="false">Contacto</button>
+        <button class="nav-link" id="nav-contacto-tab" data-bs-toggle="tab" data-bs-target="#nav-contacto" type="button" role="tab" aria-controls="nav-contacto" aria-selected="false" routerLink="contacto">Contacto</button>
         </li>
       </div>
       </ul>
     </div>
   </div>
   </nav>
-
-  <div class="tab-content" id="nav-tabContent">
-    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"><app-home></app-home></div>
-    <div class="tab-pane fade" id="nav-misproyectos" role="tabpanel" aria-labelledby="nav-misproyectos-tab"><app-misproyectos></app-misproyectos></div>
-    <div class="tab-pane fade" id="nav-hard" role="tabpanel" aria-labelledby="nav-hard-tab"><app-hard></app-hard></div>
-    <div class="tab-pane fade" id="nav-educacion" role="tabpanel" aria-labelledby="nav-educacion-tab"><app-educacion></app-educacion></div>
-    <div class="tab-pane fade" id="nav-experiencia" role="tabpanel" aria-labelledby="nav-experiencia-tab"><app-experiencia-laboral></app-experiencia-laboral></div>
-    <div class="tab-pane fade" id="nav-sobremi" role="tabpanel" aria-labelledby="nav-sobremi-tab"><app-acerca-de-mi></app-acerca-de-mi></div>
-    <div class="tab-pane fade" id="nav-contacto" role="tabpanel" aria-labelledby="nav-contacto-tab"><app-contacto></app-contacto></div>
-  </div>
+  <router-outlet></router-outlet>
 </header>
