@@ -1,11 +1,4 @@
 
-<!-- Modal de LoIN -->
-<!--<a routerLink="/" routerLinkActive="active">Inicio></a>
-<a routerLink="profile" routerLinkActive="active" *ngIf="authService.logIn">Perfil</a>
-<a routerLink="login" routerLinkActive="active" *ngIf="!authService.logIn">Login</a>
-<a class="nav-link" (click)="logout()" href="#" *ngIf="authService.logIn">logout</a>
--->
-
 <div class="modal fade" id="logInModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -14,16 +7,22 @@
             <button type="button" class="btn-close position-absolute top-0 end-0" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
         <div class="modal-body">
-            <form>
+            <form [formGroup]="form" >
                 <div class="mb-3">
-                <label for="email" class="form-label">Correo</label>
-                <input type="email" formControlName="mail" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" >
+                    <label  for="email" class="form-label">Correo</label>
+                    <input required type="email" formControlName="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" 
+                    [ngClass]="{'is-invalid': Email?.errors && Email?.touched, 'is-valid':!Email?.errors && !Email?.touched}">
                 <span >Jamás compartiremos tu información con nadie.</span>
+                    <p *ngIf="Email?.hasError('required')" class="text-danger">El email es requerido</p>
+                    <p *ngIf="Email?.hasError('email')" class="text-danger">El formato del email debe ser válido</p>
                 </div>
                 <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                <input type="password" formControlName="password" class="form-control" id="Password">
+                <input required type="password" formControlName="password" class="form-control" id="Password"
+                [ngClass]="{'is-invalid': Password?.errors && Password?.touched, 'is-valid': !Password?.errors && !Password?.touched}">
                 <span>Si olvidaste la contraseña, hazte otra cuenta por que no sé como se hace para recuperarla</span>
+                    <p *ngIf="Password?.hasError('required')" class="text-danger">El email es requerido</p>
+                    <p *ngIf="Password?.errors?.['minlength']" class="text-danger">La contraseña debe ser de 8 o más caracteres</p>
                 </div>
             </form>
         </div>
@@ -44,23 +43,23 @@
         <button type="button" class="btn-close position-absolute top-0 end-0" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <form>
+            <form [formGroup]="form">
                 <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Correo</label>
+                <label for="exampleInputEmail1" formControlName="correo" class="form-label">Correo</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 <div id="emailHelp" class="form-text">Jamás compartiremos tu información con nadie.</div>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword" class="form-label">Contraseña</label>
+                    <label for="exampleInputPassword" formControlName="contrasenia" class="form-label">Contraseña</label>
                     <input type="password" class="form-control" id="exampleInputPassword">
                     <label for="exampleInputPassword2" class="form-label">Confirma tu contraseña</label>
                     <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
+                <div class="modal-footer">
+                    <button class="btn btn-info" data-bs-target="#logInModal" data-bs-toggle="modal">Ya tengo cuenta</button>
+                    <button class="btn btn-success" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" type="submit">Ingresar</button>
+                </div>
             </form>
-        </div>
-        <div class="modal-footer">
-            <button class="btn btn-info" data-bs-target="#logInModal" data-bs-toggle="modal">Ya tengo cuenta</button>
-            <button class="btn btn-success" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Ingresar</button>
         </div>
         </div>
     </div>

@@ -1,8 +1,10 @@
 import { Injectable } from '@angular/core';
 //Esto es para suscribise y que se reciba respuesta de forma asíncrona
+//Va a estar 'observando ' cualquier cambio y lo 
 import { Observable } from 'rxjs';
 //Esto es para hacer las peticiones
 import { HttpClient } from '@angular/common/http';
+
 
 
 @Injectable({

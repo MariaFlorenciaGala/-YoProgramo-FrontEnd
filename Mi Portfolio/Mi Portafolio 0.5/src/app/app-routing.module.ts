@@ -14,6 +14,7 @@ import { LogInComponent } from './components/header/login/log-in/log-in.componen
 
 
 const routes: Routes = [
+  {path: '', redirectTo:'home', pathMatch: 'full'},
   {path: 'acercaDeMi', component:AcercaDeMiComponent},
   {path: 'misProyectos', component:MisproyectosComponent},
   {path: 'hardAndSoft', component:HardComponent},
@@ -24,11 +25,6 @@ const routes: Routes = [
   {path: 'dashboard', component:DashboardComponent, //canActivate:[AuthGuard],
 },
   {path: '**', component:ErrorComponent},
-  {path: '', redirectTo:'/home', pathMatch: 'full'},
-  
-  
-
-
 ];
 
 @NgModule({
